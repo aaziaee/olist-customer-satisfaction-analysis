@@ -1,0 +1,17 @@
+# Python environment and cache
+pycache/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment variables (Crucial: keeps your database passwords off GitHub)
+.env
+
+# Raw data files (GitHub has a 100MB limit, keep the CSVs local)
+data/
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
